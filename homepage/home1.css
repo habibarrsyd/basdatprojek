@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('home.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: orangered;
+}
+/* BATAS NAVBAR */
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.contents{
+    position: absolute;
+    color: #fff;
+    margin-top: 18%;
+    margin-left: 14%;
+}
+/* UBAH BAGIAN ATAS INI */
+.contents h2{
+    padding: 20px;
+    width: 500px;
+    border: 0;
+    outline: none;
+    justify-content: center;
+}
+/* UBAH BAGIAN INI JUGA */
+.order{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 25%;
+}
+/* UBAH BAGIAN INI */
+.order a{
+    padding: 17px 24px;
+    color: #fff;
+    background-color: orangered;
+    text-decoration: none;
+}
+/* UBAH BAGIAN INI */

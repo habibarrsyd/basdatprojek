@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('servishp.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: orangered;
+}
+.content h1{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 22%;
+    color: #fff;
+    font-size: 55px;
+}
+
+.content p{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 21%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.edit{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 38%;
+}
+
+.edit a{
+    text-decoration: none;
+    color: #fff;
+    background-color: orangered;
+    padding: 20px 80px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.edit a:hover{
+    background-color: rgb(202, 201, 201);
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('test2.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: orangered;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: orange;
+}
+.detail p{
+    color: #fff;
+    line-height: 22px;
+
+}
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    transform: translateY(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 30px;
+}
+.images:hover .teknisi{
+    left: 15%;
+}
+.detail2{
+    margin-left: 8%;
+    margin-top: 22%;
+}
+.detail2 h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: orange;
+}
+.detail2 p{
+    color: #fff;
+    line-height: 22px;
+
+}
+.detail2 a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images2{
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    bottom: -65%;
+    right: 0%;
+}
+.images2 img{
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    transform: translateY(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images2:hover .shape{
+    bottom: 30px;
+}
+.images2:hover .teknisi{
+    left: 15%;
+}
+.detail3{
+    margin-left: 8%;
+    margin-top: 22%;
+}
+.detail3 h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+span{
+    color: orange;
+}
+.detail3 p{
+    color: #fff;
+    line-height: 22px;
+
+}
+.detail3 a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images3{
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    bottom: -130%;
+    right: 0%;
+}
+.images3 img{
+    height: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    transform: translateY(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images3:hover .shape{
+    bottom: 30px;
+}
+.images3:hover .teknisi{
+    left: 15%;
+}
